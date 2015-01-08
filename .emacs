@@ -21,3 +21,5 @@
   (previous-line))
 
 (global-set-key (kbd "<C-return>") 'up-newline-without-break-of-line)
+(tool-bar-mode -1)
+;(cua-mode t)
