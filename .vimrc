@@ -10,3 +10,4 @@ set noswapfile
 set go-=T
 set go-=r
 set guifont=Inconsolata\ 10
+set ignorecase
