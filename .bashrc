@@ -110,3 +110,6 @@ if ! shopt -oq posix; then
 fi
 
 alias v='vim --servername GVIM --remote'
+
+alias ..="cd .."
+alias ...="cd ../.."
