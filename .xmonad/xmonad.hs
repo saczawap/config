@@ -14,8 +14,8 @@ main = do
                         { ppOutput = hPutStrLn xmproc
                         , ppTitle = xmobarColor "green" "" . shorten 50
                         }
-        , modMask = mod4Mask
         } `additionalKeys`
         [ ((mod4Mask , xK_d), spawn "nautilus --no-desktop")
           ,((mod4Mask , xK_f), spawn "firefox")
+          ,((mod4Mask , xK_l), spawn "sleep 1 && xset dpms force off && gnome-screensaver-command -l")
         ]
