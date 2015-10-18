@@ -1,0 +1,2 @@
+sudo visudo -f /etc/sudoers.d/myOverrides 
+dodać pawel   ALL=(ALL) NOPASSWD: /usr/sbin/pm-suspend

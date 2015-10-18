@@ -18,4 +18,5 @@ main = do
         [ ((mod4Mask , xK_d), spawn "nautilus --no-desktop")
           ,((mod4Mask , xK_f), spawn "firefox")
           ,((mod4Mask , xK_l), spawn "sleep 1 && xset dpms force off && gnome-screensaver-command -l")
+          ,((mod4Mask , xK_s), spawn "sleep 1 && xset dpms force off && gnome-screensaver-command -l && sudo pm-suspend")
         ]
