@@ -113,3 +113,8 @@ alias v='vim --servername GVIM --remote'
 
 alias ..="cd .."
 alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+alias gb="cd ~/gb"
